@@ -1,0 +1,151 @@
+.firstSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 8%;
+}
+
+.firstSection .image {
+  flex: 1;
+}
+
+.firstSection .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.firstSection .imageDiv {
+  flex: 1;
+}
+
+.firstSection .imageDiv span {
+  color: #ff6600;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.firstSection .imageDiv h2 {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.firstSection .imageDiv p {
+  line-height: 1.7;
+  color: #444;
+  font-size: 16px;
+}
+
+.secondSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+
+}
+.mission,.vission{
+    width: 50%;
+    height: fit-content;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.thirdSection{
+    padding: 20px;
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#digital,#awards,#consumer{
+    border:2px dotted gold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    padding:15px;
+    width:60%;
+
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+}
+.miniSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+}
+.forthSection{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.classes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1fr,1fr,1fr);
+    gap:10px;
+    padding: 20px;
+    width: 35%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px rgba(204, 90, 90, 0.1);
+    border-radius: 5px;
+    height: 30%;
+
+
+    
+    
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+.social-links a {
+  color: #444;
+  font-size: 24px;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ff6600; /* change on hover */
+}
+.social-links {
+  display: flex;
+  align-items: center;
+}
